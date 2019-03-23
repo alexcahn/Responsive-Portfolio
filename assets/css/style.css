@@ -225,9 +225,11 @@ body {
       nav{
           width: 100%;
           text-align: center;
+          margin-bottom: 20px;
       }
       header div {
           width: 100%;
+          margin-bottom: 20px;
       }
       section{
           width: 100%;
@@ -240,14 +242,17 @@ body {
     }
   
     @media screen and (max-width: 768px){
-      .container{
-        max-width: 90%;
-        margin: 5px;
+      nav{
+          width: 100%;
+          text-align: center;
+          margin-bottom: 20px;
       }
-    }
+      header div {
+          width: 100%;
+          margin-bottom: 20px;
+      }
+      section{
+          width: 100%;
+      }
 
-    @media screen and (max-width: 980px){
-      .container{
-        max-width: 90%;
-        margin: 5px;
     }
