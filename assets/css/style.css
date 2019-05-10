@@ -135,6 +135,11 @@ body {
   }
   
   /* portfolio page */
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
   
   .work {
     position: relative;
